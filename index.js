@@ -14,7 +14,7 @@ app.get('/', async(req, res) => {
         // fetching Profile URL from Query Parameters
         if (req.query.city) {
             const city = req.query.city;
-            const url = `https://news.google.com/search?q=${city} when:23h&hl=en-IN&gl=IN&ceid=IN:en`;
+            const url = `https://news.google.com/search?q=${city} when:2d&hl=en-IN&gl=IN&ceid=IN:en`;
             // i(url.substring(0, 8));
             // console.log(url.substring(0, 8));
             // Fetch HTML of the Page
