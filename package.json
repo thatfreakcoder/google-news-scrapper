@@ -1,0 +1,17 @@
+{
+    "name": "news-api",
+    "version": "1.0.0",
+    "description": "A news fetching API that scraps Local News from Google News",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "author": "Yuvraj Dagur",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.25.0",
+        "cheerio": "^1.0.0-rc.10",
+        "cors": "^2.8.5",
+        "express": "^4.17.2"
+    }
+}
